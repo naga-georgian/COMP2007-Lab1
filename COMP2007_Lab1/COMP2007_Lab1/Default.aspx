@@ -28,7 +28,7 @@
                     <asp:Label ID="AgeLabel" Text="Age" runat="server" />
                     <asp:TextBox CssClass="form-control" ID="AgeTextBox" runat="server" />
                 </div>
-                <asp:Button CssClass ID= "btn btn-primary"="SubmitButton" Text="Submit" runat="server" />
+                <asp:Button CssClass="btn btn-primary" ID="SubmitButton" Text="Submit" runat="server" />
             </form>
         </div>
     </div>
