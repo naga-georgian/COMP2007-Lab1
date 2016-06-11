@@ -29,11 +29,11 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><i class="fa fa-home fa-lg"></i>Home</a></li>
-                    <li><a href="#"><i class="fa fa-th fa-lg"></i>Products</a></li>
-                    <li><a href="#"><i class="fa fa-gear fa-lg"></i>Services</a></li>
-                    <li><a href="#"><i class="fa fa-info fa-lg"></i>About Us</a></li>
-                    <li><a href="#"><i class="fa fa-phone fa-lg"></i>ContactUs</a></li>
+                    <li><a href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                    <li><a href="#"><i class="fa fa-th fa-lg"></i> Products</a></li>
+                    <li><a href="#"><i class="fa fa-gear fa-lg"></i> Services</a></li>
+                    <li><a href="#"><i class="fa fa-info fa-lg"></i> About Us</a></li>
+                    <li><a href="#"><i class="fa fa-phone fa-lg"></i> ContactUs</a></li>
                     <li><a href="#">Services</a></li>
 
                 </ul>
@@ -51,15 +51,15 @@
     <form class="form" id="form1" runat="server">
         <div class="form-group">
             <asp:Label ID="FirstNameLabel" Text="FirstName" runat="server" />
-            <asp:TextBox CssClass="form-control" ID="FirstNameTextBox" runat="server" />
+            <asp:TextBox CssClass="form-control" ID="FirstNameTextBox" runat="server" required="true" CausesValidation="True" />
         </div>
         <div class="form-group">
             <asp:Label ID="LastNameLabel" Text="LastName" runat="server" />
-            <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" />
+            <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" required="true" CausesValidation="True"/>
         </div>
         <div class="form-group">
             <asp:Label ID="AgeLabel" Text="Age" runat="server" />
-            <asp:TextBox CssClass="form-control" ID="AgeTextBox" runat="server" />
+            <asp:TextBox CssClass="form-control" ID="AgeTextBox" runat="server" CausesValidation="True" />
         </div>
         <asp:Button CssClass="btn btn-primary" ID="SubmitButton" Text="Submit" runat="server" OnClick="SubmitButton_Click" />
         <br />
