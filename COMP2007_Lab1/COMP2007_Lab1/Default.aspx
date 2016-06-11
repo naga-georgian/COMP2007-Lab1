@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="COMP2007_Lab1.Default" %>
 
 <!DOCTYPE html>
-<!-- Author Name: Tom Tsiliopoulos -->
+<!-- Author Name: Naga Rimmalapudi 200277598 -->
 <html lang="en">
 <head runat="server">
     <title></title>
