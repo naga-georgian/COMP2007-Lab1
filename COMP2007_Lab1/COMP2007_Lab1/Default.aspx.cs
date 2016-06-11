@@ -11,8 +11,12 @@ namespace COMP2007_Lab1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-        
+
         }
-        
+
+        protected void SubmitButton_Click(object sender, EventArgs e)
+        {
+            FullNameTextBox.Text = FirstNameTextBox.Text.ToString() + " " + LastNameTextBox.Text.ToString();
+        }
     }
 }
